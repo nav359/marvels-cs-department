@@ -1,0 +1,353 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header img {
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero, .faculty, .courses, .apply, .about {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Form Styling */
+.apply form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.form-group input,
+.form-group select {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group button {
+    flex: 1;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.form-group button:hover {
+    background-color: #003366;
+}
+/* Faculty Table Styling */
+.faculty {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.faculty table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.faculty th, .faculty td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.faculty th {
+    background-color: #004080;
+    color: white;
+}
+
+.faculty tr:hover {
+    background-color: #f1f1f1;
+}
+
+.faculty-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    height: 80px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+/* Highlights Section */
+.highlights {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.highlights h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.highlight-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4; /* Fallback background color */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('assets/background.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    height: 100vh; /* Ensures the hero section takes the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.course-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.course-button {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.course-button:hover {
+    background-color: #003366;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px; /* Adds space above the footer */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+footer p {
+    margin: 0; /* Removes default margin */
+    font-size: 1rem;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Adds space between social links */
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Adds smooth hover effect */
+}
+
+.social-links a:hover {
+    color: #ff6600; /* Changes color on hover */
+}
